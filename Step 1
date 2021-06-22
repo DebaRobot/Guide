@@ -1,0 +1,77 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Credit Card Fraud Detection</title>
+        <style>
+            .about-style{
+                background-color: lightcoral;
+                font-size: 25px;
+                margin-top: 20px;
+                margin-bottom:10px;
+                padding: 5px;
+            }
+
+            .image-style{
+                width: 500px;
+                height: 500px;
+            }
+
+            .container {
+                /* border: 3px solid blue; */
+                /* padding: 40px 40px 40px; */
+                max-width: 750px;
+                display: flex;
+                margin-left: auto; 
+                margin-right: auto;
+            }
+
+            .container__image{
+                width: 350px;
+                height: 400px;
+                
+            }
+
+            .menu {
+            display: inline;
+            padding: 12px 16px;
+            color: white ;
+        
+        }
+            
+            .text{
+                padding-left: 50px;
+            }
+
+        </style>
+        <body>
+            <div style="color: orangered;"><a href = "/" style="color: brown;"></a>
+                <h2 style="">Credit Card Fraud Detection</h2>
+            </div>
+
+            <div class = "about-style">
+                <span style="padding-left: 25px; color: brown;" >
+                    <a href = "/" style="color: brown;">Home</a>
+                </span>
+                <span style="padding-left: 25px; color: brown;" >
+                    <a href = "/" style="color: brown;">Context</a>
+                </span>
+            </div>
+
+            <div class="container">
+                <img class="container__image" 
+                src="https://contentpond.com/wp-content/uploads/2019/01/credit-card.jpg" width="100px" height="100pxS">
+                <div class="text">
+                  <h2>Why Increase in Frauds ??</h2>
+                  <p>The myriads of plastic cards in use worldwide are a gold mine for criminals. By 2027, financial service providers are
+                    expected to take a $40 billion hit globally in credit card losses, a significant increase compared to $27.85 bn in 2018.
+                    This growth in losses is partially caused by the rise of electronic transactions. Just imagine that today the average 
+                    American has more than three credit cards, which amounts to 1.5 billion cards in the US alone. While the number of plastic
+                    cards globally numbers an impressive 22.11 billion.
+                  </p>
+                  <p>Another reason is that fraudulent methods are getting more sophisticated and thus harder to spot by traditional fraud detection
+                    software.To address such a massive challenge effectively, companies involved in the card payment process need advanced approaches.
+                  </p>
+                </div>
+            </div>
+        </body>
+</html>
